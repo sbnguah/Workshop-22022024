@@ -13,7 +13,7 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme: united
+    theme: solar
     css: styles.css
 
 editor: visual

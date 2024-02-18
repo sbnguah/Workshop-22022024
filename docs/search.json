@@ -39,6 +39,20 @@
     "href": "posts/welcome/index.html#blood",
     "title": "Data Description",
     "section": "blood",
-    "text": "blood\nDescription\nThis dataset can be downloaded from here. It contains records of cross-sectional study of the blood reseult of 50 children. It has the following 3 variables.\n\nstno: The study ID.\nage: Age in completed months of the study participants.\nwgt: Weight in kilogram\nhgt: Height in cms\nhb: Blood hemoglobin concentration in g/dL\nwbc: White blood cell count\nhct: Blood hematocrit in %"
+    "text": "blood\nDescription\nThis dataset can be downloaded from here. It contains records of cross-sectional study of the blood reseult of 50 children. It has the following 7 variables.\n\nstno: The study ID.\nage: Age in completed months of the study participants.\nwgt: Weight in kilogram\nhgt: Height in cms\nhb: Blood hemoglobin concentration in g/dL\nwbc: White blood cell count\nhct: Blood hematocrit in %"
+  },
+  {
+    "objectID": "posts/welcome/index.html#titanic",
+    "href": "posts/welcome/index.html#titanic",
+    "title": "Data Description",
+    "section": "titanic",
+    "text": "titanic\nDescription\nThis dataset can be downloaded from here. It contains records of the fateful journey by the titanic cruise ship. It has the following 5 variables.\n\nclass: The class in which the person was.\nage: Age in completed years.\nsex: Sex\nsurvived: Whether the person survived the sinking of the ship\ndied: Whether the person died as a result of the accident"
+  },
+  {
+    "objectID": "posts/welcome/index.html#schisto",
+    "href": "posts/welcome/index.html#schisto",
+    "title": "Data Description",
+    "section": "schisto",
+    "text": "schisto\nDescription\nThis dataset was obtained from 367 pupils in a community in Ghana. The cross-sectional study was to determine the effect of urinary schstosomiasis on the nutritional status as well as blood indices of the school chilren. It has the following 15 variables.\n\nSerial0: The study ID.\nQ3Age: Age in completed years.\nQ4Sex: The sex of the pupil.\nQ35weight: Weight in kilogram\nQ36Height: Height in cms\nQ6Religion: Religious affiliation\nEducationalstatus: Level of education\nQ15PipeBorne: Does pupil use bipe borne water at home? 0 = No, 1 = Yes\nQ15Well: Does pupil use well water at home? 0 = No, 1 = Yes\nQ15River: Does pupil use river water at home? 0 = No, 1 = Yes\nHB: Blood hemoglobin concentration in g/dL\nSH: Shistosomiasis ova in the urine. Nil, +, ++, and +++\nHCT: Blood hematocrit in %\nMCV: Mean Corpuscular Volume\nMCH: Mean Corpuscular Hemoglobin"
   }
 ]

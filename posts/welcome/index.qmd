@@ -10,7 +10,7 @@ This post describes the data set to be used in the workshop.
 ## ANCData
 
 **Description**  
-This dataset can be downloaded from [here](ANCData.xls). It contains records of high-risk pregnant women under a trial on new and old methods of antenatal care in two clinics. The outcome was perinatal mortality. There are 755 observations with the following 3 variables.
+This dataset can be downloaded from [here](ANCData.xlsx). It contains records of high-risk pregnant women under a trial on new and old methods of antenatal care in two clinics. The outcome was perinatal mortality. There are 755 observations with the following 3 variables.
 
 -   **death**: A categorical variable indicating if death occurred in the infant.
 -   **anc**: Indicates which type of ANC method was used.
@@ -19,7 +19,7 @@ This dataset can be downloaded from [here](ANCData.xls). It contains records of 
 ## blood
 
 **Description**  
-This dataset can be downloaded from [here](blood.xlsx). It contains records of  cross-sectional study of the blood reseult of 50 children. It has the following 3 variables.
+This dataset can be downloaded from [here](blood.xlsx). It contains records of  cross-sectional study of the blood reseult of 50 children. It has the following 7 variables.
 
 -   **stno**: The study ID.
 -   **age**: Age in completed months of the study participants.
@@ -29,5 +29,36 @@ This dataset can be downloaded from [here](blood.xlsx). It contains records of  
 -   **wbc**: White blood cell count
 -   **hct**: Blood hematocrit in %
 
+## titanic
+
+**Description**  
+This dataset can be downloaded from [here](titanic.xlsx). It contains records of  the fateful journey by the titanic cruise ship. It has the following 5 variables.
+
+-   **class**: The class in which the person was.
+-   **age**: Age in completed years.
+-   **sex**: Sex
+-   **survived**: Whether the person survived the sinking of the ship
+-   **died**: Whether the person died as a result of the accident
+
+## schisto
+
+**Description**  
+This dataset was obtained from 367 pupils in a community in Ghana. The cross-sectional study was to determine the effect of urinary schstosomiasis on the nutritional status as well as blood indices of the school chilren. It has the following 15 variables.
+
+-   **Serial0**: The study ID.
+-   **Q3Age**: Age in completed years.
+-   **Q4Sex**: The sex of the pupil.
+-   **Q35weight**: Weight in kilogram
+-   **Q36Height**: Height in cms
+-   **Q6Religion**: Religious affiliation
+-   **Educationalstatus**: Level of education
+-   **Q15PipeBorne**: Does pupil use bipe borne water at home? 0 = No, 1 = Yes
+-   **Q15Well**: Does pupil use well water at home? 0 = No, 1 = Yes
+-   **Q15River**: Does pupil use river water at home? 0 = No, 1 = Yes
+-   **HB**: Blood hemoglobin concentration in g/dL
+-   **SH**: Shistosomiasis ova in the urine. Nil, +, ++, and +++
+-   **HCT**: Blood hematocrit in %
+-   **MCV**: Mean Corpuscular Volume 
+-   **MCH**: Mean Corpuscular Hemoglobin
 
 
