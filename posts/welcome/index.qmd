@@ -1,0 +1,13 @@
+---
+title: "Data Description"
+author: "Samuel Blay Nguah"
+date: "2024-02-15"
+categories: [Other]
+---
+
+This is the first post in a Quarto blog. Welcome!
+
+![](thumbnail.jpg)
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the
+listing page of posts.

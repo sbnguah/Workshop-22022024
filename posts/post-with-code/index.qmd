@@ -1,0 +1,13 @@
+---
+title: "Practical 1: Knowing Jamovi"
+author: "Samuel Blay Nguah"
+date: "2024-02-18"
+categories: [Practical]
+image: "image.jpg"
+---
+
+This is a post with executable code.
+
+```{r}
+1 + 1
+```
