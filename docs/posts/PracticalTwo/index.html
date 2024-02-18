@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Samuel Blay Nguah">
+<meta name="dcterms.date" content="2024-02-18">
 
-<title>Home - GCPS Advanced Statistics Workshop</title>
+<title>Home - Practical 2: Exploratory data analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,50 +60,19 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Home</span>
     </a>
   </div>
@@ -133,288 +102,145 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">GCPS Advanced Statistics Workshop</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Practical 2: Exploratory data analysis</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Practical</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Samuel Blay Nguah </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 18, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Other">Other <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Practical">Practical <span class="quarto-category-count">(6)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
+<p>This is the second practical lesson where we learn how to perform exploratory data analysis</p>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<ul>
+<li>Explore the data</li>
+<li>Summaries
+<ul>
+<li>Tabulation</li>
+<li>Measures of central tendency, dispersion, distribution</li>
+</ul></li>
+<li>Graphics
+<ul>
+<li>Categorical
+<ul>
+<li>Barchart</li>
+</ul></li>
+<li>Numeric
+<ul>
+<li>Histogram, density plot, boxplot, QQplot, violin plot,</li>
+</ul></li>
+<li>Categorical vs Categorical
+<ul>
+<li>Barplot</li>
+</ul></li>
+<li>Numeric vs numeric</li>
+<li>Categorical vs Numeric</li>
+</ul></li>
+</ul>
+</section>
+<section id="to-do" class="level2">
+<h2 class="anchored" data-anchor-id="to-do">To do</h2>
+<section id="categorical-variable" class="level3">
+<h3 class="anchored" data-anchor-id="categorical-variable">Categorical variable</h3>
+<ul>
+<li>We use<code>titanic.xlsx</code></li>
+<li>Statistics
+<ul>
+<li>Look out for missing</li>
+<li>One-way tabulation</li>
+<li>Two-way tabulation</li>
+<li>Multiple-way tabulation</li>
+</ul></li>
+<li>Graphics
+<ul>
+<li>One-way bar plot</li>
+<li>Two-way bar plot</li>
+</ul></li>
+</ul>
+</section>
+<section id="numeric-variable" class="level3">
+<h3 class="anchored" data-anchor-id="numeric-variable">Numeric variable</h3>
+<ul>
+<li>Use “blood.xlsx”</li>
+<li>Statistics – Measure of central tendency
+<ul>
+<li>Mean</li>
+<li>Median</li>
+<li>Mode</li>
+</ul></li>
+<li>Statistics – measures of dispersion
+<ul>
+<li>Standard deviation</li>
+<li>Variance</li>
+<li>Range</li>
+<li>IQR</li>
+<li>Minimum, maximum</li>
+</ul></li>
+<li>Outliers</li>
+<li>Distribution
+<ul>
+<li>Skewness</li>
+<li>Kurtosis</li>
+</ul></li>
+<li>Normality</li>
+<li>Graphics
+<ul>
+<li>Histogram</li>
+<li>Density plot
+<ul>
+<li>Single</li>
+<li>Comparative</li>
+</ul></li>
+<li>Boxplot
+<ul>
+<li>Single</li>
+</ul></li>
+<li>Comparative</li>
+<li>Violin plot (+ data points)
+<ul>
+<li>Single</li>
+<li>Comparative</li>
+</ul></li>
+</ul></li>
+</ul>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Other" data-listing-date-sort="1707955200000" data-listing-file-modified-sort="1708260932073" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/welcome/index.html">
-<h3 class="no-anchor listing-title">
-Data Description
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Other'); return false;">
-Other
-</div>
-</div>
-<a href="./posts/welcome/index.html">
-<div class="listing-description">
-This post describes the data set to be used in the workshop.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html">
-<div class="listing-date">
-Feb 15, 2024
-</div>
-<div class="listing-author">
-Samuel Blay Nguah
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Practical" data-listing-date-sort="1708214400000" data-listing-file-modified-sort="1708262454999" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/PracticalOne/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/PracticalOne/index.html">
-<h3 class="no-anchor listing-title">
-Practical 1: Data preparation
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Practical'); return false;">
-Practical
-</div>
-</div>
-<a href="./posts/PracticalOne/index.html">
-<div class="listing-description">
-This is the first practical lesson where we learn how to prepare data before analysis
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/PracticalOne/index.html">
-<div class="listing-date">
-Feb 18, 2024
-</div>
-<div class="listing-author">
-Samuel Blay Nguah
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Practical" data-listing-date-sort="1708214400000" data-listing-file-modified-sort="1708263703614" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/PracticalTwo/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/PracticalTwo/index.html">
-<h3 class="no-anchor listing-title">
-Practical 2: Exploratory data analysis
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Practical'); return false;">
-Practical
-</div>
-</div>
-<a href="./posts/PracticalTwo/index.html">
-<div class="listing-description">
-This is the second practical lesson where we learn how to perform exploratory data analysis
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/PracticalTwo/index.html">
-<div class="listing-date">
-Feb 18, 2024
-</div>
-<div class="listing-author">
-Samuel Blay Nguah
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Practical" data-listing-date-sort="1708214400000" data-listing-file-modified-sort="1708266488221" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/PracticalThree/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/PracticalThree/index.html">
-<h3 class="no-anchor listing-title">
-Practical 3: Hypothesis testing
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Practical'); return false;">
-Practical
-</div>
-</div>
-<a href="./posts/PracticalThree/index.html">
-<div class="listing-description">
-This is the first practical lesson where we learn how to prepare data before analysis
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/PracticalThree/index.html">
-<div class="listing-date">
-Feb 18, 2024
-</div>
-<div class="listing-author">
-Samuel Blay Nguah
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Practical" data-listing-date-sort="1708214400000" data-listing-file-modified-sort="1708266626117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/PracticaFour/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/PracticaFour/index.html">
-<h3 class="no-anchor listing-title">
-Practical 4: ANOVA &amp; Correlation
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Practical'); return false;">
-Practical
-</div>
-</div>
-<a href="./posts/PracticaFour/index.html">
-<div class="listing-description">
-This is the first practical lesson where we learn how to prepare data before analysis
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/PracticaFour/index.html">
-<div class="listing-date">
-Feb 18, 2024
-</div>
-<div class="listing-author">
-Samuel Blay Nguah
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="Practical" data-listing-date-sort="1708214400000" data-listing-file-modified-sort="1708266932664" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/PracticalFive/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/PracticalFive/index.html">
-<h3 class="no-anchor listing-title">
-Practical 5: Regression
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Practical'); return false;">
-Practical
-</div>
-</div>
-<a href="./posts/PracticalFive/index.html">
-<div class="listing-description">
-This is the first practical lesson where we learn how to prepare data before analysis
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/PracticalFive/index.html">
-<div class="listing-date">
-Feb 18, 2024
-</div>
-<div class="listing-author">
-Samuel Blay Nguah
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="Practical" data-listing-date-sort="1708214400000" data-listing-file-modified-sort="1708267411384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/PracticalSix/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/PracticalSix/index.html">
-<h3 class="no-anchor listing-title">
-Practical 6: Sample size determination
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Practical'); return false;">
-Practical
-</div>
-</div>
-<a href="./posts/PracticalSix/index.html">
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/PracticalSix/index.html">
-<div class="listing-date">
-Feb 18, 2024
-</div>
-<div class="listing-author">
-Samuel Blay Nguah
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

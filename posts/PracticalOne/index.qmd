@@ -1,0 +1,26 @@
+---
+title: "Practical 1: Data preparation"
+author: "Samuel Blay Nguah"
+date: "2024-02-18"
+categories: [Practical]
+---
+
+This is the first practical lesson where we learn how to prepare data before analysis
+
+## Objectives
+- Read in data of differing formats
+- Editing variable names
+- Labelling variables
+- Editing value labels
+- Setting variable types
+- Arrange variable levels appropriately
+- Deriving new variables 
+- Transforming variables
+
+## To do
+- Use the `schisto.xlsx`
+- Perform above tasks
+- Save data as `schisto.omv`
+
+
+

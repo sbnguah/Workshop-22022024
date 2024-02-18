@@ -2,8 +2,13 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/welcome/index.html",
+      "/posts/PracticalOne/index.html",
+      "/posts/PracticalTwo/index.html",
+      "/posts/PracticalThree/index.html",
+      "/posts/PracticaFour/index.html",
+      "/posts/PracticalFive/index.html",
+      "/posts/PracticalSix/index.html"
     ]
   }
 ]

@@ -2,7 +2,7 @@
 title: "GCPS Advanced Statistics Workshop"
 listing:
   contents: posts
-  sort: "date desc"
+  sort: "title"
   type: default
   categories: true
   sort-ui: false
