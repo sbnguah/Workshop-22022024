@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "This is a web page set up to augment the GCPS Advanced Statistics workshop. It primarily outlines the practical lessons to be done at the workshop and introduces the data required for these practice lessons."
   },
   {
     "objectID": "index.html",
@@ -25,6 +25,20 @@
     "href": "posts/welcome/index.html",
     "title": "Data Description",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This post describes the data set to be used in the workshop."
+  },
+  {
+    "objectID": "posts/welcome/index.html#ancdata",
+    "href": "posts/welcome/index.html#ancdata",
+    "title": "Data Description",
+    "section": "ANCData",
+    "text": "ANCData\nDescription\nThis dataset can be downloaded from here. It contains records of high-risk pregnant women under a trial on new and old methods of antenatal care in two clinics. The outcome was perinatal mortality. There are 755 observations with the following 3 variables.\n\ndeath: A categorical variable indicating if death occurred in the infant.\nanc: Indicates which type of ANC method was used.\nclinic: Indicates which clinic the patient was seen at."
+  },
+  {
+    "objectID": "posts/welcome/index.html#blood",
+    "href": "posts/welcome/index.html#blood",
+    "title": "Data Description",
+    "section": "blood",
+    "text": "blood\nDescription\nThis dataset can be downloaded from here. It contains records of cross-sectional study of the blood reseult of 50 children. It has the following 3 variables.\n\nstno: The study ID.\nage: Age in completed months of the study participants.\nwgt: Weight in kilogram\nhgt: Height in cms\nhb: Blood hemoglobin concentration in g/dL\nwbc: White blood cell count\nhct: Blood hematocrit in %"
   }
 ]

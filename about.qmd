@@ -1,8 +1,8 @@
 ---
 title: "About"
-image: profile.jpg
+image: gcps-logo.jpg
 about:
-  template: jolla
+  template: trestles
   links:
     - icon: twitter
       text: Twitter
@@ -13,7 +13,6 @@ about:
     - icon: github
       text: Github
       href: https://github.com
-
 ---
 
-About this blog
+This is a web page set up to augment the GCPS Advanced Statistics workshop. It primarily outlines the practical lessons to be done at the workshop and introduces the data required for these practice lessons.
