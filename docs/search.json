@@ -18,7 +18,7 @@
     "href": "posts/PracticaFour/index.html",
     "title": "Practical 4: ANOVA & Correlation",
     "section": "",
-    "text": "This is the first practical lesson where we learn how to prepare data before analysis"
+    "text": "This is the fourth practical lesson where we learn the Analysis of Variance and Correlation analysis"
   },
   {
     "objectID": "posts/PracticaFour/index.html#objectives",
@@ -32,7 +32,7 @@
     "href": "posts/PracticalFive/index.html",
     "title": "Practical 5: Regression",
     "section": "",
-    "text": "This is the first practical lesson where we learn how to prepare data before analysis"
+    "text": "This is the fifth practical lesson where we learn the basics of Regressions"
   },
   {
     "objectID": "posts/PracticalFive/index.html#objectives",
@@ -67,14 +67,14 @@
     "href": "posts/PracticalSix/index.html",
     "title": "Practical 6: Sample size determination",
     "section": "",
-    "text": "Form 5 groups\nLet’s have 10 minutes to discuss each other project and the determinants of your sample size\nWe use the website https://sample-size.net/ for the sample size determination\nWe meet afterward to determine the sample sizes for different designs"
+    "text": "In this part we learn how to determine sample sizes for different study methodologies.\n\nForm 5 groups\nLet’s have 10 minutes to discuss each other project and the determinants of your sample size\nWe use the website https://sample-size.net/ for the sample size determination\nWe meet afterward to determine the sample sizes for different designs"
   },
   {
     "objectID": "posts/PracticalThree/index.html",
     "href": "posts/PracticalThree/index.html",
     "title": "Practical 3: Hypothesis testing",
     "section": "",
-    "text": "This is the first practical lesson where we learn how to prepare data before analysis"
+    "text": "This is the third practical lesson where we learn how about hypothesis testing"
   },
   {
     "objectID": "posts/PracticalThree/index.html#objectives",

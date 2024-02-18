@@ -5,16 +5,15 @@ date: "2024-02-18"
 categories: [Practical]
 ---
 
-This is the first practical lesson where we learn how to prepare data before analysis
+This is the fourth practical lesson where we learn the Analysis of Variance and Correlation analysis
 
 ## Objectives
 
-- ANOVA
-    - One-Way ANOVA
-    - Repeated Measure ANOVA
-    - ANOVA (Two-way)
-    - Analysis of covariance (ANCOVA)
-
-- Correlation matrix
-    - Pearson
-    - Spearman
+-   ANOVA
+    -   One-Way ANOVA
+    -   Repeated Measure ANOVA
+    -   ANOVA (Two-way)
+    -   Analysis of covariance (ANCOVA)
+-   Correlation matrix
+    -   Pearson
+    -   Spearman
