@@ -46,21 +46,28 @@
     "href": "posts/PracticalOne/index.html",
     "title": "Practical 1: Data preparation",
     "section": "",
-    "text": "This is the first practical lesson where we learn how to prepare data before analysis"
+    "text": "This is the first practical lesson where we learn how to prepare data before analysis."
   },
   {
     "objectID": "posts/PracticalOne/index.html#objectives",
     "href": "posts/PracticalOne/index.html#objectives",
     "title": "Practical 1: Data preparation",
     "section": "Objectives",
-    "text": "Objectives\n\nRead in data of differing formats\nEditing variable names\nLabelling variables\nEditing value labels\nSetting variable types\nArrange variable levels appropriately\nDeriving new variables\nTransforming variables"
+    "text": "Objectives\n\nRead data from differing formats\nEditing variable names\nLabelling variables\nEditing value labels\nSetting variable types\nArrange variable levels appropriately\nDeriving new variables\nTransforming variables"
+  },
+  {
+    "objectID": "posts/PracticalOne/index.html#practical",
+    "href": "posts/PracticalOne/index.html#practical",
+    "title": "Practical 1: Data preparation",
+    "section": "Practical",
+    "text": "Practical\nTo do this we will begin with the schisto data. Please download and save it on your computer if you have not done so already.\n\nCreate a folder on your computer\nSave the data in the folder.\nImport the data into Jamovi\nMake sure all variable types reflect the type of variable collected\nAppropriately labels all categorical or ordinal variables\nEdit the names of the variables to the appropriate names\nCreate a variable BMI from the weight and height\nCreate an ordinal variable from the HB as: Severe = &lt;8g/dl, Moderate = 8g/dl to &lt;10g/dl and Mlld = 10g/dl to &lt;12g/dl and &gt;=12g/dl = Normal\nSave the data as schisto.omv"
   },
   {
     "objectID": "posts/PracticalOne/index.html#to-do",
     "href": "posts/PracticalOne/index.html#to-do",
     "title": "Practical 1: Data preparation",
     "section": "To do",
-    "text": "To do\n\nUse the schisto.xlsx\nPerform above tasks\nSave data as schisto.omv"
+    "text": "To do\n\nDownload the blood data\nRead it into Jamovi\nMake sure all variable types reflect the type of variable collected\nAppropriately labels all categorical or ordinal variables\nEdit the names of the variables to the appropriate names\nCreate a variable BMI from the weight and height\nCreate an ordinal variable from the HB as: Severe = &lt;8g/dl, Moderate = 8g/dl to &lt;10g/dl and Mlld = 10g/dl to &lt;12g/dl and &gt;=12g/dl = Normal\nSave data as blood.omv"
   },
   {
     "objectID": "posts/PracticalSix/index.html",
@@ -145,5 +152,12 @@
     "title": "Data Description",
     "section": "NewDrug",
     "text": "NewDrug\nDescription\nThis dataset can be downloaded from here. It was obtained in a randomized controlled trial of a new drug against a control drug. It measured the mean blood pressure of study participants before and after the drugs were administered. It has the following 6 variables.\n\nid: Study ID\ntreat: Treatment given\nage: Age in completed years.\nsex: Gender of participant\nbp1: Mean arterial BP before treatment\nbp2: Mean arterial BP after treatment"
+  },
+  {
+    "objectID": "posts/welcome/index.html#outbreak",
+    "href": "posts/welcome/index.html#outbreak",
+    "title": "Data Description",
+    "section": "Outbreak",
+    "text": "Outbreak\nDescription\nThis data can be downloaded from here. It contains information from an outbreak investigation concerning food poisoning on a sportsday in Thailand 1990.\nDichotomous variables for exposures and symptoms were coded as 0 = No, 1 = yes and 9 = Missing.\nIt contains the following variables\n\nid: Study ID\nsex: Sex of study person. 0 = Female, 1 = Male.\nage: Age of participant. 99 = Missing\nexptime: Character version of time of exposure\nbeefcurry: Whether the subject ate beef curry\nsaltegg: Whether the subject ate salted eggs\neclair: Pieces of eclair eaten by participants. 80 = “ate but could not remember how much”, 90 = totally missing information\nwater: Whether the subject drunk water\nonset: Character version of time of onset\nnausea: Whether the subject had nausea\nvomiting: Whether the subject had vomiting\nabdpain: Whether the subject had abdominal pain\ndiarrhea: Whether the subject had diarrhea"
   }
 ]

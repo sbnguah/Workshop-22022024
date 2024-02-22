@@ -81,3 +81,30 @@ participants before and after the drugs were administered. It has the following 
 -   **sex**: Gender of participant
 -   **bp1**: Mean arterial BP before treatment
 -   **bp2**: Mean arterial BP after treatment
+
+## Outbreak
+
+**Description**  
+This data can be downloaded from [here](Outbreak.rds). It contains information 
+from an outbreak investigation concerning food poisoning on a sportsday in 
+Thailand 1990.
+
+Dichotomous variables for exposures and symptoms were coded as 0 = No, 1 = yes 
+and 9 = Missing.  
+
+It contains the following variables  
+
+- **id**: Study ID 
+- **sex**: Sex of study person. 0 = Female, 1 = Male. 
+- **age**: Age of participant. 99 = Missing 
+- **exptime**: Character version of time of exposure 
+- **beefcurry**: Whether the subject ate beef curry 
+- **saltegg**: Whether the subject ate salted eggs 
+- **eclair**: Pieces of eclair eaten by participants. 80 = "ate but could not remember
+how much", 90 = totally missing information 
+- **water**: Whether the subject drunk water 
+- **onset**: Character version of time of onset 
+- **nausea**: Whether the subject had nausea 
+- **vomiting**: Whether the subject had vomiting 
+- **abdpain**: Whether the subject had abdominal pain 
+- **diarrhea**: Whether the subject had diarrhea
